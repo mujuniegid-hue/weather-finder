@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #1f2933;
+}
+
+.container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #1d4ed8;
+}
+
+#status {
+  min-height: 24px;
+  margin-bottom: 12px;
+  color: #52606d;
+}
+
+#status.error {
+  background: #fde8e8;
+  color: #9b1c1c;
+  border: 1px solid #f5b5b5;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  margin: 0 0 8px;
+}
+
+.card .temp {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.card p {
+  margin: 6px 0;
+}
